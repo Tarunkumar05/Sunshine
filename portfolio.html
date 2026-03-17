@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Luxe Interiors</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+<div id="page-loader"><div class="loader-logo">Luxe<span>.</span></div><div class="loader-bar"></div></div>
+
+<nav class="navbar-luxe" data-light="true">
+  <a href="index.html" class="nav-logo">Luxe<span class="dot">.</span>Interiors</a>
+  <div class="nav-links">
+    <a href="index.html"    class="nav-link">Home</a>
+    <a href="about.html"    class="nav-link">About</a>
+    <a href="services.html" class="nav-link">Services</a>
+    <a href="portfolio.html"class="nav-link">Portfolio</a>
+    <a href="contact.html"  class="nav-link">Contact</a>
+    <a href="contact.html"  class="btn-luxe btn-gold nav-cta"><span>Get Consultation</span></a>
+  </div>
+  <div class="hamburger"><span></span><span></span><span></span></div>
+</nav>
+<div class="mobile-menu">
+  <a href="index.html" class="nav-link">Home</a>
+  <a href="about.html" class="nav-link">About</a>
+  <a href="services.html" class="nav-link">Services</a>
+  <a href="portfolio.html" class="nav-link">Portfolio</a>
+  <a href="contact.html" class="nav-link">Contact</a>
+</div>
+
+<!-- Hero -->
+<section class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1800&q=80')"></div>
+  <div class="container">
+    <div class="page-hero-content">
+      <div class="breadcrumb-luxe"><a href="index.html">Home</a><span>/</span>Portfolio</div>
+      <h1 class="page-hero-title">Our <span style="font-style:italic;color:var(--gold-light)">Work</span></h1>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio -->
+<section class="portfolio-page section" style="background:var(--ivory)">
+  <div class="container">
+    <div class="d-flex flex-wrap justify-content-between align-items-end mb-5 gap-4">
+      <div>
+        <span class="section-label reveal">Explore Our Projects</span>
+        <h2 class="section-title reveal delay-1">850+ Spaces <span class="italic-accent">Transformed</span></h2>
+        <div class="gold-line reveal delay-2"></div>
+      </div>
+      <div class="reveal delay-1">
+        <div class="portfolio-filters" style="flex-wrap:wrap">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="residential">Residential</button>
+          <button class="filter-btn" data-filter="commercial">Commercial</button>
+          <button class="filter-btn" data-filter="kitchen">Kitchen</button>
+          <button class="filter-btn" data-filter="hospitality">Hospitality</button>
+          <button class="filter-btn" data-filter="renovation">Renovation</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-grid" style="grid-template-columns:repeat(3,1fr)">
+      <div class="portfolio-item" data-cat="residential" data-src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=1400&q=90" data-title="The Kapoor Villa — Mumbai">
+        <img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=700&q=80" alt="Kapoor Villa" loading="lazy"/>
+        <div class="portfolio-overlay"><div class="portfolio-title">The Kapoor Villa</div><div class="portfolio-cat">Residential · Mumbai</div></div>
+        <div class="portfolio-plus"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></div>
+      </div>
+      <div class="portfolio-item" data-cat="commercial" data-src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1400&q=90" data-title="Nexus Tech HQ — Bangalore">
+        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=700&q=80" alt="Office" loading="lazy"/>
+        <div class="portfolio-overlay"><div class="portfolio-title">Nexus Tech HQ</div><div class="portfolio-cat">Commercial · Bangalore</div></div>
+        <div class="portfolio-plus"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></div>
+      </div>
+      <div class="portfolio-item" data-cat="kitchen" data-src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1400&q=90" data-title="Aryan Residence Kitchen — Delhi">
+        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=700&q=80" alt="Kitchen" loading="lazy"/>
+        <div class="portfolio-overlay"><div class="portfolio-title">Aryan Residence Kitchen</div><div class="portfolio-cat">Kitchen · Delhi</div></div>
+        <div class="portfolio-plus"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></div>
+      </div>
+      <div class="portfolio-item" data-cat="residential" data-src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=1400&q=90" data-title="The Sharma Suite — Pune">
+        <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=700&q=80" alt="Bedroom" loading="lazy"/>
+        <div class="portfolio-overlay"><div class="portfolio-title">The Sharma Suite</div><div class="portfolio-cat">Residential · Pune</div></div>
+        <div class="portfolio-plus"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></div>
+      </div>
+      <div class="portfolio-item" data-cat="residential" data-src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1400&q=90" data-title="Mehta Penthouse — Hyderabad">
+        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=700&q=80" alt="Penthouse" loading="lazy"/>
+        <div class="portfolio-overlay"><div class="portfolio-title">Mehta Penthouse</div><div class="portfolio-cat">Residential · Hyderabad</div></div>
+        <div class="portfolio-plus"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></div>
+      </div>
+      <div class="portfolio-item" data-cat="hospitality" data-src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1400&q=90" data-title="Éclat Boutique Hotel — Mumbai">
+        <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=700&q=80" alt="Hotel" loading="lazy"/>
+        <div class="portfolio-overlay"><div class="portfolio-title">Éclat Boutique Hotel</div><div class="portfolio-cat">Hospitality · Mumbai</div></div>
+        <div class="portfolio-plus"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></div>
+      </div>
+      <div class="portfolio-item" data-cat="renovation" data-src="https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=1400&q=90" data-title="Iyer Residence Renovation — Chennai">
+        <img src="https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=700&q=80" alt="Renovation" loading="lazy"/>
+        <div class="portfolio-overlay"><div class="portfolio-title">Iyer Residence</div><div class="portfolio-cat">Renovation · Chennai</div></div>
+        <div class="portfolio-plus"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></div>
+      </div>
+      <div class="portfolio-item" data-cat="commercial" data-src="https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?w=1400&q=90" data-title="Aura Spa & Wellness — Goa">
+        <img src="https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?w=700&q=80" alt="Spa" loading="lazy"/>
+        <div class="portfolio-overlay"><div class="portfolio-title">Aura Spa &amp; Wellness</div><div class="portfolio-cat">Hospitality · Goa</div></div>
+        <div class="portfolio-plus"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></div>
+      </div>
+      <div class="portfolio-item" data-cat="kitchen" data-src="https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=1400&q=90" data-title="Patel Residence Kitchen — Ahmedabad">
+        <img src="https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=700&q=80" alt="Kitchen 2" loading="lazy"/>
+        <div class="portfolio-overlay"><div class="portfolio-title">Patel Residence Kitchen</div><div class="portfolio-cat">Kitchen · Ahmedabad</div></div>
+        <div class="portfolio-plus"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></div>
+      </div>
+      <div class="portfolio-item" data-cat="residential" data-src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1400&q=90" data-title="Gupta Luxury Apartment — Gurgaon">
+        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=700&q=80" alt="Apartment" loading="lazy"/>
+        <div class="portfolio-overlay"><div class="portfolio-title">Gupta Luxury Apartment</div><div class="portfolio-cat">Residential · Gurgaon</div></div>
+        <div class="portfolio-plus"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></div>
+      </div>
+      <div class="portfolio-item" data-cat="renovation" data-src="https://images.unsplash.com/photo-1600210491892-03d54079395e?w=1400&q=90" data-title="Heritage Bungalow — Kolkata">
+        <img src="https://images.unsplash.com/photo-1600210491892-03d54079395e?w=700&q=80" alt="Heritage" loading="lazy"/>
+        <div class="portfolio-overlay"><div class="portfolio-title">Heritage Bungalow</div><div class="portfolio-cat">Renovation · Kolkata</div></div>
+        <div class="portfolio-plus"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></div>
+      </div>
+      <div class="portfolio-item" data-cat="hospitality" data-src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1400&q=90" data-title="The Nest Boutique Hotel — Jaipur">
+        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=700&q=80" alt="Boutique Hotel" loading="lazy"/>
+        <div class="portfolio-overlay"><div class="portfolio-title">The Nest Boutique Hotel</div><div class="portfolio-cat">Hospitality · Jaipur</div></div>
+        <div class="portfolio-plus"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="cta-bg"></div>
+  <div class="container cta-content">
+    <h2 class="cta-title reveal">Your Project Could Be<br><em style="font-style:italic;color:var(--gold-light)">Featured Here</em></h2>
+    <p class="cta-sub reveal delay-1">Start your design journey today with a free consultation from our award-winning team.</p>
+    <div class="cta-btns reveal delay-2">
+      <a href="contact.html" class="btn-luxe btn-gold"><span>Start Your Project</span></a>
+      <a href="services.html" class="btn-luxe btn-outline-ivory"><span>View Services</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-4">
+        <div class="footer-brand">Luxe<span>.</span>Interiors</div>
+        <p class="footer-tagline">Transforming spaces into extraordinary experiences since 2009.</p>
+        <div class="footer-socials">
+          <a class="social-link" href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a class="social-link" href="#" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+        </div>
+      </div>
+      <div class="col-lg-2 col-6">
+        <div class="footer-heading">Navigation</div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-6">
+        <div class="footer-heading">Categories</div>
+        <ul class="footer-links">
+          <li><a href="#">Residential</a></li>
+          <li><a href="#">Commercial</a></li>
+          <li><a href="#">Kitchens</a></li>
+          <li><a href="#">Hospitality</a></li>
+          <li><a href="#">Renovation</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <div class="footer-heading">Contact</div>
+        <div class="footer-contact-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <p>12, Design House, Bandra West, Mumbai — 400050</p>
+        </div>
+        <div class="footer-contact-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.65A2 2 0 012.18 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.15a16 16 0 006.94 6.94l1.52-1.52a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          <p>+91 98765 43210</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2025 Luxe Interiors. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox-overlay">
+  <button class="lightbox-close" aria-label="Close">✕</button>
+  <img class="lightbox-img" src="" alt="Portfolio"/>
+  <div class="lightbox-caption"></div>
+</div>
+
+<button id="back-top" aria-label="Back to top"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg></button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

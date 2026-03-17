@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxe Interiors — Transform Your Space</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Cursor -->
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+<!-- Loader -->
+<div id="page-loader">
+  <div class="loader-logo">Sunshine<span>.</span></div>
+  <div class="loader-bar"></div>
+</div>
+
+<!-- ── Navbar ── -->
+<nav class="navbar-luxe">
+  <a href="index.html" class="nav-logo">Sunshine<span class="dot">.</span>Interiors</a>
+  <div class="nav-links">
+    <a href="index.html"    class="nav-link">Home</a>
+    <a href="about.html"    class="nav-link">About</a>
+    <a href="services.html" class="nav-link">Services</a>
+    <a href="portfolio.html"class="nav-link">Portfolio</a>
+    <a href="contact.html"  class="nav-link">Contact</a>
+    <a href="contact.html"  class="btn-luxe btn-gold nav-cta"><span>Get Consultation</span></a>
+  </div>
+  <div class="hamburger"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu">
+  <a href="index.html"    class="nav-link">Home</a>
+  <a href="about.html"    class="nav-link">About</a>
+  <a href="services.html" class="nav-link">Services</a>
+  <a href="portfolio.html"class="nav-link">Portfolio</a>
+  <a href="contact.html"  class="nav-link">Contact</a>
+  <a href="contact.html"  class="btn-luxe btn-gold"><span>Get Consultation</span></a>
+</div>
+
+<!-- ══════════════════════════════════════
+     HERO
+═══════════════════════════════════════ -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="container">
+    <div class="hero-content">
+      <span class="hero-label">Award-Winning Interior Design Studio</span>
+      <h1 class="hero-title">Transform Your<br>Space with <em>Modern</em><br>Interior Design</h1>
+      <p class="hero-sub">We craft bespoke living environments that blend aesthetics, functionality, and your personal story — from concept to completion.</p>
+      <div class="hero-btns">
+        <a href="portfolio.html" class="btn-luxe btn-outline-ivory">
+          <span>View Portfolio</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="contact.html" class="btn-luxe btn-gold">
+          <span>Contact Us</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-mouse"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     STATS BAR
+═══════════════════════════════════════ -->
+<div class="stats-bar">
+  <div class="container">
+    <div class="row g-0">
+      <div class="col-6 col-md-3"><div class="stat-item reveal">
+        <span class="stat-num" data-count="850" data-suffix="+">0+</span>
+        <span class="stat-label">Projects Completed</span>
+      </div></div>
+      <div class="col-6 col-md-3"><div class="stat-item reveal delay-1">
+        <span class="stat-num" data-count="15" data-suffix="">0</span>
+        <span class="stat-label">Years of Excellence</span>
+      </div></div>
+      <div class="col-6 col-md-3"><div class="stat-item reveal delay-2">
+        <span class="stat-num" data-count="48" data-suffix="">0</span>
+        <span class="stat-label">Design Awards</span>
+      </div></div>
+      <div class="col-6 col-md-3"><div class="stat-item reveal delay-3">
+        <span class="stat-num" data-count="99" data-suffix="%">0%</span>
+        <span class="stat-label">Client Satisfaction</span>
+      </div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     SERVICES
+═══════════════════════════════════════ -->
+<section class="services-section section">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-label reveal">What We Offer</span>
+      <h2 class="section-title reveal delay-1">Our Core <span class="italic-accent">Services</span></h2>
+      <div class="gold-line center reveal delay-2"></div>
+      <p class="section-body mx-auto reveal delay-3" style="max-width:560px">From intimate residences to expansive commercial spaces, we deliver tailored design solutions with uncompromising quality.</p>
+    </div>
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="service-card reveal" data-tilt>
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1600210491892-03d54079395e?w=600&q=80" alt="Residential Interior Design" loading="lazy"/>
+          </div>
+          <div class="service-body">
+            <div class="service-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h3 class="service-title">Residential Design</h3>
+            <p class="service-desc">Beautifully curated homes that reflect your lifestyle — from contemporary apartments to grand villas.</p>
+            <a href="services.html" class="service-link">Learn More →</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="service-card reveal delay-1" data-tilt>
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" alt="Office Interior Design" loading="lazy"/>
+          </div>
+          <div class="service-body">
+            <div class="service-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <h3 class="service-title">Office Interiors</h3>
+            <p class="service-desc">Inspiring workspaces that boost productivity, reflect your brand, and attract top talent.</p>
+            <a href="services.html" class="service-link">Learn More →</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="service-card reveal delay-2" data-tilt>
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80" alt="Modular Kitchen Design" loading="lazy"/>
+          </div>
+          <div class="service-body">
+            <div class="service-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg>
+            </div>
+            <h3 class="service-title">Modular Kitchen</h3>
+            <p class="service-desc">Smart, elegant kitchen solutions with premium materials and precision engineering.</p>
+            <a href="services.html" class="service-link">Learn More →</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="service-card reveal delay-3" data-tilt>
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=600&q=80" alt="Renovation Services" loading="lazy"/>
+          </div>
+          <div class="service-body">
+            <div class="service-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3 class="service-title">Renovation Services</h3>
+            <p class="service-desc">Complete space transformations that breathe new life into existing interiors.</p>
+            <a href="services.html" class="service-link">Learn More →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-5 reveal">
+      <a href="services.html" class="btn-luxe btn-outline-gold">
+        <span>Explore All Services</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     ABOUT PREVIEW
+═══════════════════════════════════════ -->
+<section class="about-preview section">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-5">
+        <div class="about-img-wrap reveal-left">
+          <img class="img-main" src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80" alt="Luxury Living Room"/>
+          <img class="img-accent" src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80" alt="Interior Detail"/>
+          <div class="about-badge">
+            <span class="num">15</span>
+            <span class="txt">Years of Excellence</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="ps-lg-4 reveal-right">
+          <span class="section-label">About Luxe Interiors</span>
+          <h2 class="section-title">Crafting Spaces That <span class="italic-accent">Tell Your Story</span></h2>
+          <div class="gold-line"></div>
+          <p class="section-body mb-4">Founded in 2009, Luxe Interiors has grown into one of India's most trusted interior design studios. We believe every space holds the potential to inspire — and it is our mission to unlock that potential for each client.</p>
+          <p class="section-body mb-4">Our team of 40+ designers, architects, and craftspeople collaborate across residential, commercial, and hospitality projects, delivering spaces that are functional, beautiful, and unmistakably personal.</p>
+          <div class="about-features">
+            <div class="about-feat">
+              <div class="feat-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--gold)"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <div class="feat-title">Personalised Design Approach</div>
+                <div class="feat-desc">Every project starts with listening — understanding your vision, lifestyle, and goals.</div>
+              </div>
+            </div>
+            <div class="about-feat">
+              <div class="feat-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--gold)"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <div class="feat-title">Premium Material Sourcing</div>
+                <div class="feat-desc">We partner with the finest craftspeople and suppliers across India and globally.</div>
+              </div>
+            </div>
+            <div class="about-feat">
+              <div class="feat-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--gold)"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <div class="feat-title">End-to-End Project Management</div>
+                <div class="feat-desc">From first concept to final install, we handle everything with precision and care.</div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5">
+            <a href="about.html" class="btn-luxe btn-gold"><span>Our Story</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     PORTFOLIO PREVIEW
+═══════════════════════════════════════ -->
+<section class="portfolio-section section">
+  <div class="container">
+    <div class="d-flex flex-wrap align-items-end justify-content-between mb-5 gap-3">
+      <div>
+        <span class="section-label reveal">Our Work</span>
+        <h2 class="section-title light reveal delay-1">Selected <span class="italic-accent">Projects</span></h2>
+      </div>
+      <div class="reveal">
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="residential">Residential</button>
+          <button class="filter-btn" data-filter="commercial">Commercial</button>
+          <button class="filter-btn" data-filter="kitchen">Kitchen</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-grid reveal">
+      <div class="portfolio-item" data-cat="residential" data-src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=1200&q=85" data-title="The Kapoor Villa — Mumbai">
+        <img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=700&q=80" alt="Kapoor Villa"/>
+        <div class="portfolio-overlay">
+          <div class="portfolio-title">The Kapoor Villa</div>
+          <div class="portfolio-cat">Residential · Mumbai</div>
+        </div>
+        <div class="portfolio-plus">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+        </div>
+      </div>
+      <div class="portfolio-item" data-cat="commercial" data-src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=85" data-title="Nexus Tech Offices — Bangalore">
+        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=700&q=80" alt="Nexus Tech Office"/>
+        <div class="portfolio-overlay">
+          <div class="portfolio-title">Nexus Tech HQ</div>
+          <div class="portfolio-cat">Commercial · Bangalore</div>
+        </div>
+        <div class="portfolio-plus">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+        </div>
+      </div>
+      <div class="portfolio-item" data-cat="kitchen" data-src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200&q=85" data-title="Modern Modular Kitchen">
+        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=700&q=80" alt="Modern Kitchen"/>
+        <div class="portfolio-overlay">
+          <div class="portfolio-title">Aryan Residence Kitchen</div>
+          <div class="portfolio-cat">Kitchen · Delhi</div>
+        </div>
+        <div class="portfolio-plus">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+        </div>
+      </div>
+      <div class="portfolio-item" data-cat="residential" data-src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=1200&q=85" data-title="Serene Master Bedroom">
+        <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=700&q=80" alt="Bedroom"/>
+        <div class="portfolio-overlay">
+          <div class="portfolio-title">The Sharma Suite</div>
+          <div class="portfolio-cat">Residential · Pune</div>
+        </div>
+        <div class="portfolio-plus">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+        </div>
+      </div>
+      <div class="portfolio-item" data-cat="residential" data-src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=85" data-title="Contemporary Living Room">
+        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=700&q=80" alt="Living Room"/>
+        <div class="portfolio-overlay">
+          <div class="portfolio-title">Mehta Penthouse</div>
+          <div class="portfolio-cat">Residential · Hyderabad</div>
+        </div>
+        <div class="portfolio-plus">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+        </div>
+      </div>
+      <div class="portfolio-item" data-cat="commercial" data-src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1200&q=85" data-title="Boutique Hotel Lobby">
+        <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=700&q=80" alt="Hotel Lobby"/>
+        <div class="portfolio-overlay">
+          <div class="portfolio-title">Éclat Boutique Hotel</div>
+          <div class="portfolio-cat">Hospitality · Mumbai</div>
+        </div>
+        <div class="portfolio-plus">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-5 reveal">
+      <a href="portfolio.html" class="btn-luxe btn-gold"><span>View All Projects</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     WHY CHOOSE US
+═══════════════════════════════════════ -->
+<section class="why-section section">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-label reveal">Why Luxe</span>
+      <h2 class="section-title reveal delay-1">The Luxe <span class="italic-accent">Difference</span></h2>
+      <div class="gold-line center reveal delay-2"></div>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-3 col-md-6"><div class="why-card reveal" data-tilt>
+        <div class="why-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <h3 class="why-title">Quality Craftsmanship</h3>
+        <p class="why-desc">Every detail is executed to exacting standards using premium materials and time-honoured techniques.</p>
+      </div></div>
+      <div class="col-lg-3 col-md-6"><div class="why-card reveal delay-1" data-tilt>
+        <div class="why-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <h3 class="why-title">Experienced Designers</h3>
+        <p class="why-desc">Our award-winning team brings decades of combined expertise across residential, commercial, and hospitality.</p>
+      </div></div>
+      <div class="col-lg-3 col-md-6"><div class="why-card reveal delay-2" data-tilt>
+        <div class="why-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3 class="why-title">On-time Delivery</h3>
+        <p class="why-desc">We respect your timeline and budget. 97% of our projects are delivered on schedule, every time.</p>
+      </div></div>
+      <div class="col-lg-3 col-md-6"><div class="why-card reveal delay-3" data-tilt>
+        <div class="why-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.5"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+        </div>
+        <h3 class="why-title">Affordable Pricing</h3>
+        <p class="why-desc">Transparent, all-inclusive pricing with no hidden costs. Luxury design made accessible across every budget tier.</p>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     TESTIMONIALS
+═══════════════════════════════════════ -->
+<section class="testimonials-section section">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-label reveal">Client Stories</span>
+      <h2 class="section-title reveal delay-1">What Our <span class="italic-accent">Clients Say</span></h2>
+      <div class="gold-line center reveal delay-2"></div>
+    </div>
+    <div class="swiper swiper-testimonials reveal">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"Luxe Interiors transformed our home into a sanctuary. Their attention to detail and ability to translate our vague ideas into something extraordinary was truly remarkable. We couldn't be happier."</p>
+          <div class="testi-author">
+            <div class="testi-avatar"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="Priya Sharma"/></div>
+            <div><div class="testi-name">Priya Sharma</div><div class="testi-role">3BHK Villa · Mumbai</div></div>
+          </div>
+        </div></div>
+        <div class="swiper-slide"><div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"Our new office space has completely changed how our team collaborates. The design is sleek, functional, and we've had countless compliments from clients. Luxe delivered beyond expectations."</p>
+          <div class="testi-author">
+            <div class="testi-avatar"><img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80" alt="Rahul Mehta"/></div>
+            <div><div class="testi-name">Rahul Mehta</div><div class="testi-role">CEO · Nexus Technologies</div></div>
+          </div>
+        </div></div>
+        <div class="swiper-slide"><div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"The modular kitchen they designed is an absolute dream. Every cabinet, every drawer — perfectly thought out. The team was professional and the project was completed ahead of schedule."</p>
+          <div class="testi-author">
+            <div class="testi-avatar"><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="Anita Kapoor"/></div>
+            <div><div class="testi-name">Anita Kapoor</div><div class="testi-role">Kitchen Renovation · Delhi</div></div>
+          </div>
+        </div></div>
+        <div class="swiper-slide"><div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"From the initial consultation to the final reveal, the Luxe team was responsive, creative, and incredibly talented. They created a penthouse that feels like it belongs in an architecture magazine."</p>
+          <div class="testi-author">
+            <div class="testi-avatar"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80" alt="Arjun Singh"/></div>
+            <div><div class="testi-name">Arjun Singh</div><div class="testi-role">Penthouse · Hyderabad</div></div>
+          </div>
+        </div></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     WORK PROCESS
+═══════════════════════════════════════ -->
+<section class="process-section section">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-label reveal" style="color:var(--gold-light)">How We Work</span>
+      <h2 class="section-title light reveal delay-1">Our <span class="italic-accent">Process</span></h2>
+      <div class="gold-line center reveal delay-2"></div>
+      <p class="section-body reveal delay-3" style="color:rgba(247,243,237,.5);max-width:520px;margin:0 auto">A refined, transparent process ensures every project runs smoothly — from first conversation to final reveal.</p>
+    </div>
+    <div class="row g-5 process-steps">
+      <div class="col-lg-3 col-md-6"><div class="process-step reveal">
+        <div class="step-num">01</div>
+        <h3 class="step-title">Discovery & Planning</h3>
+        <p class="step-desc">We understand your requirements, budget, timeline, and aesthetic preferences in a detailed consultation session.</p>
+      </div></div>
+      <div class="col-lg-3 col-md-6"><div class="process-step reveal delay-1">
+        <div class="step-num">02</div>
+        <h3 class="step-title">Concept Design</h3>
+        <p class="step-desc">Our designers create 3D visualisations, mood boards, and material palettes for your review and approval.</p>
+      </div></div>
+      <div class="col-lg-3 col-md-6"><div class="process-step reveal delay-2">
+        <div class="step-num">03</div>
+        <h3 class="step-title">Production</h3>
+        <p class="step-desc">Custom furniture and fittings are crafted and sourced. We manage vendors, timelines, and quality at every step.</p>
+      </div></div>
+      <div class="col-lg-3 col-md-6"><div class="process-step reveal delay-3">
+        <div class="step-num">04</div>
+        <h3 class="step-title">Installation</h3>
+        <p class="step-desc">Our installation team executes with precision. Final styling, photography, and a detailed handover complete the journey.</p>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     CTA
+═══════════════════════════════════════ -->
+<section class="cta-section">
+  <div class="cta-bg"></div>
+  <div class="container cta-content">
+    <span class="section-label reveal" style="color:var(--gold-light)">Ready to Begin?</span>
+    <h2 class="cta-title reveal delay-1">Let's Create Your<br><em style="font-style:italic;color:var(--gold-light)">Dream Space</em> Together</h2>
+    <p class="cta-sub reveal delay-2">Whether it's your home, office, or hotel — we're ready to bring your vision to life. Book a free 30-minute consultation today.</p>
+    <div class="cta-btns reveal delay-3">
+      <a href="contact.html" class="btn-luxe btn-gold"><span>Book Free Consultation</span></a>
+      <a href="portfolio.html" class="btn-luxe btn-outline-ivory"><span>See Our Work</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-4">
+        <div class="footer-brand">Luxe<span>.</span>Interiors</div>
+        <p class="footer-tagline">Transforming spaces into extraordinary experiences since 2009. Award-winning interior design across India.</p>
+        <div class="footer-socials">
+          <a class="social-link" href="#" aria-label="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a class="social-link" href="#" aria-label="Pinterest">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 00-3.6 19.3c-.1-.9-.2-2.2.1-3.2l1.4-5.8s-.4-.7-.4-1.8c0-1.7.9-2.9 2.3-2.9 1.1 0 1.6.8 1.6 1.8 0 1.1-.7 2.7-1.1 4.2-.3 1.2.6 2.2 1.8 2.2 2.2 0 3.7-2.8 3.7-6.2 0-2.6-1.8-4.5-4.5-4.5-3.1 0-5 2.4-5 4.8 0 .9.3 1.9.8 2.4.1.1.1.2 0 .4l-.3 1.2c0 .2-.2.2-.3.1C7.5 13.6 7 12 7 10.5c0-3.7 2.7-7.2 7.9-7.2 4.1 0 7.3 2.9 7.3 6.8 0 4.1-2.5 7.3-6 7.3-1.2 0-2.3-.6-2.6-1.3l-.7 2.8c-.3 1-.9 2.1-1.3 2.8A10 10 0 0012 2z"/></svg>
+          </a>
+          <a class="social-link" href="#" aria-label="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a class="social-link" href="#" aria-label="YouTube">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-2 col-6">
+        <div class="footer-heading">Quick Links</div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-6">
+        <div class="footer-heading">Services</div>
+        <ul class="footer-links">
+          <li><a href="services.html">Residential</a></li>
+          <li><a href="services.html">Office Design</a></li>
+          <li><a href="services.html">Modular Kitchen</a></li>
+          <li><a href="services.html">Renovation</a></li>
+          <li><a href="services.html">Hospitality</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <div class="footer-heading">Get In Touch</div>
+        <div class="footer-contact-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <p>12, Design House, Linking Road,<br>Bandra West, Mumbai — 400050</p>
+        </div>
+        <div class="footer-contact-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.65A2 2 0 012.18 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.15a16 16 0 006.94 6.94l1.52-1.52a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          <p>+91 98765 43210</p>
+        </div>
+        <div class="footer-contact-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <p>hello@luxeinteriors.in</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
+        <p class="footer-copy">© 2025 Luxe Interiors. All rights reserved.</p>
+        <p class="footer-copy">Crafted with passion for beautiful spaces.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox-overlay">
+  <button class="lightbox-close" aria-label="Close">✕</button>
+  <img class="lightbox-img" src="" alt="Portfolio"/>
+  <div class="lightbox-caption"></div>
+</div>
+
+<!-- Back to Top -->
+<button id="back-top" aria-label="Back to top">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
