@@ -1,6 +1,4 @@
-/* ============================================================
-   LUXE INTERIORS — Main JS
-   ============================================================ */
+
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -215,7 +213,6 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLB(); });
   })();
 
-  /* ── Contact Form ── */
   (function initForm() {
     const form = document.getElementById('contact-form');
     if (!form) return;
