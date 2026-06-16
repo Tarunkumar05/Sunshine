@@ -28,7 +28,7 @@
 
 /* ── Reset / Base ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-x: hidden; }
 body {
   font-family: var(--font-body);
   background: var(--ivory);
@@ -265,6 +265,7 @@ ul { list-style: none; }
   background: var(--ivory);
   transition: var(--transition);
 }
+.navbar-luxe.light-bg .hamburger span { background: var(--charcoal); }
 .hamburger.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
 .hamburger.open span:nth-child(2) { opacity: 0; }
 .hamburger.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
@@ -910,6 +911,17 @@ ul { list-style: none; }
 .form-control-luxe::placeholder { color: rgba(26,26,26,.3); }
 textarea.form-control-luxe { resize: none; padding-top: 12px; }
 select.form-control-luxe option { color: var(--charcoal); background: var(--white); }
+.contact-form-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.contact-whatsapp-cta {
+  color: var(--charcoal);
+}
+.contact-whatsapp-cta:hover {
+  color: var(--charcoal);
+}
 .info-icon {
   width: 44px; height: 44px;
   background: rgba(184,154,106,.15);
@@ -986,6 +998,7 @@ select.form-control-luxe option { color: var(--charcoal); background: var(--whit
 
 /* ── Responsive ── */
 @media (max-width: 991px) {
+  .cursor-dot, .cursor-ring { display: none !important; }
   .navbar-luxe { padding: 0 24px; }
   .nav-links { display: none; }
   .hamburger { display: flex; }
