@@ -216,6 +216,10 @@ document.addEventListener('DOMContentLoaded', () => {
   (function initForm() {
     const form = document.getElementById('contact-form');
     if (!form) return;
+    const whatsappCta = document.getElementById('contact-whatsapp-cta');
+    if (whatsappCta) {
+      whatsappCta.href = 'https://wa.me/918107997777?text=Hi%2C%20I%20need%20interior%20design%20consultation.';
+    }
     form.addEventListener('submit', async e => {
       e.preventDefault();
       const btn = form.querySelector('[type=submit]');
